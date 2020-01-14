@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.coolapk.com/u/2108563")));
                 break;
             case R.id.main_button2:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Pois0nBreads/icantopenit")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Pois0nBreads/ResetCamera")));
                 break;
             case R.id.main_rl1:
                 startActivity(new Intent(MainActivity.this, SettingActivity.class));
