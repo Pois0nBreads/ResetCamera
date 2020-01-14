@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mSwitch1.setChecked(shared.getBoolean("sw1", false));
         mSwitch2.setChecked(shared.getBoolean("sw2", false));
         mSwitch3.setChecked(shared.getBoolean("isHide", false));
+        mSwitch4.setChecked(shared.getBoolean("getAppEnable", false));
         bindListen();
     }
 
