@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/apps_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--author : Pois0nBread
+        e-mail : pois0nbreads@gmail.com
+        time   : 2019/12/02
+        desc   : list_apps
+        version: 1.0-->
+
+
+    <ImageView
+        android:layout_marginLeft="8dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/apps_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/apps_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/apps_icon"
+        android:layout_toRightOf="@id/apps_icon"/>
+
+    <TextView
+        android:id="@+id/apps_info"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/apps_icon"
+        android:layout_below="@id/apps_name"/>
+
+    <CheckBox
+        android:layout_marginRight="8dp"
+        android:id="@+id/apps_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
