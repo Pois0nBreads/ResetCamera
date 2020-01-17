@@ -39,7 +39,7 @@
         android:layout_marginRight="5dp"
         android:background="@drawable/button_bg"
         android:padding="14dp"
-        android:text="将后置相机替换为前置相机" />
+        android:text="将前置相机替换为后置相机" />
 
     <Switch
         android:id="@+id/main_switch2"
@@ -135,6 +135,6 @@
         android:padding="14dp"
         android:layout_below="@id/main_button1"
         android:textColor="@android:color/black"
-        android:text="版本 V2.1.0"/>
+        android:text="版本 V2.1.1"/>
 
 </RelativeLayout>
